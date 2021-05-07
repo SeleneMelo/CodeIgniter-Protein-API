@@ -1,6 +1,4 @@
-# Learning-Laravel-API
-I've recently started learning back-end web development applications. I'll be using Laravel, a web framework for PHP. As soon as I proceed with my project, I'll upload this repository.
-##  **Welcome to the RESTful-API wiki!**
+##  **Welcome to Laravel RESTful-API Learning!**
 
 ### *REpresentational State Transfer API*
  1. **GET**: Retrieve resources
