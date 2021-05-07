@@ -11,7 +11,7 @@
 
 ## Command lines
    <pre><code> $ composer create-project --prefer-dist laravel/laravel learning </code></pre>
-   <pre><code> $ php artisan serve
+   <pre><code> $ php artisan serve //start server
    Laravel development server started: http://127.0.0.1:8000 </code></pre>
 ## Migrations
 * Upload database and add its credentials to the .env file located in the root of the project.
