@@ -30,7 +30,7 @@
 * Acess: http://localhost/phpmyadmin/
 * Run:`$ php artisan make:controller Country\CountryController`
 * Go to: Routes/api.php/ and add
-`Route::get('country', 'Country\CountryController@country');`
+`Route::get('country', [CountryController::class, 'country']);`
 * Go to: `app\http\Controllers\CountryCountryController.php` and add:
 `public function country(){ //here. we need a model.` Let's create:
 * Run: `$ php artisan make:model Models\CountryModel`
