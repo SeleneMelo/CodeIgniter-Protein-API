@@ -35,6 +35,9 @@
    4. The controller will become the center of every request to your web application
    5. We refer to a controller with $this
    6. We have made the controller. The next thing is to set routing rules. Routing associates a URI with a controller’s method.
+   
+ ## Blast
+  1. run nblast 
  
  ## * Running development server
   1. Inside of your site file, start server and go to the localhost page;
