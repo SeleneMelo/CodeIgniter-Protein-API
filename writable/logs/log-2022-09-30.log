@@ -1,0 +1,18 @@
+CRITICAL - 2022-09-30 10:51:53 --> explode(): Passing null to parameter #2 ($string) of type string is deprecated
+in APPPATH/Controllers/Blast.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'explode(): Passing null to parameter #2 ($string) of type string is deprecated', 'APPPATH/Controllers/Blast.php', 16)
+ 2 APPPATH/Controllers/Blast.php(16): explode('Database:', null)
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Blast->blastp()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blast))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 10:59:03 --> explode(): Passing null to parameter #2 ($string) of type string is deprecated
+in APPPATH/Controllers/Blast.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'explode(): Passing null to parameter #2 ($string) of type string is deprecated', 'APPPATH/Controllers/Blast.php', 16)
+ 2 APPPATH/Controllers/Blast.php(16): explode('Database:', null)
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Blast->blastp()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blast))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
