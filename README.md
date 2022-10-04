@@ -11,9 +11,9 @@
  1. **PUT**: Update resources
  1. **DELETE**: Delete resources
 
-* Framework: Laravel 
+* Framework: Laravel or CodeIgniter 
 * Requests: PHP, VScode, Postman, Wamp, GitBash 
-* Dependency manager: Artisan or CodeIgniter
+* Dependency manager: Artisan or Composer
 
 ## Command lines to start server:
    <pre><code> $ composer create-project --prefer-dist laravel/laravel learning </code></pre>
