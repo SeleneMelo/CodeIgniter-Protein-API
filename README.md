@@ -6,6 +6,7 @@ Using composer
 Objetivo: construir uma API Codeigniter para buscar uma proteína template para modelagem comparativa.
 Modelagem comparativa é quando se modela a estrutura 3d de uma proteína com base em uma estrutura parecida.
 Geralmente, precisamos de duas métricas: identidade (deve ser maior que 25%) e cobertura (deve ser maior que 50%).
+
 Funcionamento:
 Recebe a sequência como entrada, compara ela contra todo o PDB usando blast (ex. de como fazer isso aqui: https://github.com/dcbmariano/arun/blob/main/4_blast/blast.py). Por fim, pega o melhor resultado e retorna na API.
 
